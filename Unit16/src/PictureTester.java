@@ -221,18 +221,7 @@ public class PictureTester
     water.explore();
   }
   
-  public static void testEncodeAndDecode()
-
-  {
-
-    Picture pic = new Picture("src/images/msg.jpg");
-    Picture bgd = new Picture("src/images/redMotorcycle.jpg");
-    pic.explore();
-    bgd.encode(pic);
-    bgd.explore();
-    Picture result = bgd.decode();
-    result.explore();
-  }
+  
   /** Main method for testing.  Every class can have a main
     * method in Java */
   public static void main(String[] args)
@@ -263,7 +252,6 @@ public class PictureTester
     //testEdgeDetection();
     //testEdgeDetection2();
     //testChromakey();
-    testEncodeAndDecode();
     //testGetCountRedOverValue(250);
     //testSetRedToHalfValueInTopHalf();
     //testClearBlueOverValue(200);
